@@ -50,7 +50,7 @@ graph TD
     E --> F[可视化输出]
     F --> G[交互式面板]
 **依赖项
-pip install pandas numpy tushare matplotlib seaborn openpyxl
+%%pip install pandas numpy tushare matplotlib seaborn openpyxl
 交互式数据面板 环境要求：jupyterlab ipywidgets matplotlib (需在 Jupyter Notebook中运行)
 ##使用说明
 1.获取 Tushare API Token
