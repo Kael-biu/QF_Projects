@@ -52,7 +52,8 @@ graph TD
 **依赖项
 %%pip install pandas numpy tushare matplotlib seaborn openpyxl
 交互式数据面板 环境要求：jupyterlab ipywidgets matplotlib (需在 Jupyter Notebook中运行)
-##使用说明
+
+**使用说明**
 1.获取 Tushare API Token
   注册 Tushare 账号并获取 API Token，替换代码中的Your_token
 2.运行数据清洗
@@ -66,12 +67,12 @@ graph TD
 5.数据看板搭建(交互式面板)
   打开 risk_calculator.ipynb 文件并在 Jupyter Notebook 中运行
 
-**优化说明
+**优化说明**
 管道操作：将数据清洗步骤重构为 pandas 管道，代码可读性提升 33.41%
 性能对比：
 原始方法耗时：0.00599766秒
 优化方法耗时：0.00399399秒（根据实际测试结果填写）
-**输出结果
+**输出结果**
 fund_clean.csv：清洗后的基金净值数据
 fund_risk_indicators.xlsx：包含原始数据与风险指标的 Excel 文件
 correct_rolling_correlation.png：基金收益率相关性热图
